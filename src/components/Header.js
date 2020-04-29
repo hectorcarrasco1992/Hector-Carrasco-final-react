@@ -7,12 +7,13 @@ const Header = ()=>{
                 display:"flex",
                 justifyContent:"center",
                 backgroundColor:'lightGray',
-                margin:0,
-                padding:0,
-                height:"15%"}}
+                margin:"0px",
+                padding:"0px",
+                height:"100%",
+                width:"100%"}}
                 >Hector Carrasco Tech
                 </h1>
-                
+
         </div>
     )
 }

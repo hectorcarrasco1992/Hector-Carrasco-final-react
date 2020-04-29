@@ -9,7 +9,7 @@ const Beer = (props)=>{
                         <div style={{display:"flex"}}>
 
                         <img src={item.image_url} alt="beer" style={{width:"100px"}}/>
-                        <div style={{display:"flex",flexDirection:"column",paddingLeft:"50px"}}>
+                        <div style={{display:"flex",flexDirection:"column",paddingLeft:"50px",justifyContent:"space-evenly"}}>
                             <h2 style={{justifyContent:"center"}}>{item.name}</h2>
                             <p style={{fontWeight:"bold"}}>Description: {item.description}</p>
                             <p style={{fontWeight:"bold"}}>Tips:{item.brewers_tips}</p>

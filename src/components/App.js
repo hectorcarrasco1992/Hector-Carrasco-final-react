@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import axios from 'axios'
-
+import '../App.css'
 import Header from './Header'
 import Beer from './Beer'
 
@@ -26,7 +26,7 @@ class App extends Component{
 
     render(){
         return(
-            <div>
+            <div >
                 <Header></Header>
 
                 <hr/>
