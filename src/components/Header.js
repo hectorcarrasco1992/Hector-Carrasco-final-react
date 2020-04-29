@@ -11,7 +11,7 @@ const Header = ()=>{
                 padding:"0px",
                 height:"100%",
                 width:"100%"}}
-                >Hector Carrasco Tech
+                >Hector Carrasco React Final
                 </h1>
 
         </div>
